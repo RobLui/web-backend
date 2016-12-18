@@ -14,5 +14,4 @@
 	$somethingInstance	=	new EchoSomething();
 	$messages[] = $somethingInstance->something;
 
-	require_once( 'voorbeeld-autoload-spl-view.php' );
 ?>
