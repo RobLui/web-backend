@@ -15,32 +15,32 @@
 
 		<h1>Voorbeeld van classes: inheritance: extends</h1>
 
-		<img src="http://web-backend.local/img/adventure-time-logo.jpg" class="max-width-200">
+		<img src="<?php glob($_SERVER['DOCUMENT_ROOT'])?>/img/adventure-time-logo.jpg" class="max-width-200">
 
 		<h2>Personage: <?php echo $finn->name ?></h2>
 		
-		<img src="http://web-backend.local/img/<?php echo $finn->profilePicture ?>" class="max-width-200">
+		<img src="<?php glob($_SERVER['DOCUMENT_ROOT'])?>/img/<?php echo $finn->profilePicture ?>" class="max-width-200">
 		
 		<p><?php echo $finn->getFormattedChatchPhrase() ?></p>
 		
 
 		<h2>Personage: <?php echo $jake->name ?></h2>
 		
-		<img src="http://web-backend.local/img/<?php echo $jake->profilePicture ?>" class="max-width-200">
+		<img src="<?php glob($_SERVER['DOCUMENT_ROOT'])?>/img/<?php echo $jake->profilePicture ?>" class="max-width-200">
 		
 		<p><?php echo $jake->getFormattedChatchPhrase() ?></p>
 		
 
 		<h2>Personage: <?php echo $princessBubblegum->name ?></h2>
 		
-		<img src="http://web-backend.local/img/<?php echo $princessBubblegum->profilePicture ?>" class="max-width-200">
+		<img src="<?php glob($_SERVER['DOCUMENT_ROOT'])?>/img/<?php echo $princessBubblegum->profilePicture ?>" class="max-width-200">
 		
 		<p><?php echo $princessBubblegum->getFormattedChatchPhrase() ?></p>
 
 
 		<h2>Personage: <?php echo $iceKing->name ?></h2>
 		
-		<img src="http://web-backend.local/img/<?php echo $iceKing->profilePicture ?>" class="max-width-200">
+		<img src="<?php glob($_SERVER['DOCUMENT_ROOT'])?>/img/<?php echo $iceKing->profilePicture ?>" class="max-width-200">
 		
 		<p><?php echo $iceKing->getFormattedChatchPhrase() ?></p>
 
