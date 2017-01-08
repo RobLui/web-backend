@@ -112,7 +112,7 @@
 			<?php if ( $admin ): ?>
 				<p>Dit is een verborgen tekst, speciaal voor de admin</p>
 				<nav>
-					<a href="voorbeeld-security-user-type-geheim.php">Supergeheime pagina</a>
+					<a href="geheim.php">Supergeheime pagina</a>
 				</nav>
 			<?php endif ?>
 
