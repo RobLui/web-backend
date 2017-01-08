@@ -19,7 +19,7 @@
 		// (maar kan soms wel duidelijker zijn)
 		if( $db->query('CREATE DATABASE eigen_db') ) 
 		{
-			$messageContainer 	= 	'Tabel succesvol gecreëerd';
+			$messageContainer 	= 	'Tabel succesvol gecre&eumlerd';
 		} 
 		else 
 		{
@@ -27,7 +27,7 @@
 		}
 	}
 
-	// De connectie afsluiten (optioneel -> gebeurt normaal automatisch na het beëindigen van het script)
+	// De connectie afsluiten (optioneel -> gebeurt normaal automatisch na het beÃ«indigen van het script)
 	$db->close();
 
 ?>
