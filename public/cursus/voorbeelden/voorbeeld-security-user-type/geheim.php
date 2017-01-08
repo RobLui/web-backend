@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Voorbeeld security: user type</title>
-	<link rel="stylesheet" type="text/css" href="../../_assets/css/global.css">
+	<link rel="stylesheet" type="text/css" href="http://web-backend.local/css/global.css">
 </head>
 <body class="web-backend-voorbeeld">
 
