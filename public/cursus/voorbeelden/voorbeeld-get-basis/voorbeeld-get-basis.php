@@ -32,7 +32,7 @@
 		</form>
 		
 		<p>Inhoud van $_GET: <pre><?php print_r( $_GET ) ?></pre></p>
-		<p>Inhoud van $_GET['email']: <?php echo $_GET['email'] ?></p>
+		<p>Inhoud van $_GET['email']: <?= (isset($_GET['email']) ) ? $_GET['email'] : '' ?></p>
 
 	</section>
 
