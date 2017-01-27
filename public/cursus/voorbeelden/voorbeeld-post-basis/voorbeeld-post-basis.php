@@ -32,7 +32,7 @@
 		</form>
 		
 		<p>Inhoud van $_POST: <pre><?php print_r( $_POST ) ?></pre></p>
-		<p>Inhoud van $_POST['email']: <?php echo $_POST['email'] ?></p>
+		<p>Inhoud van $_POST['email']: <?= (isset($_POST['email']) ) ? $_POST['email'] : '' ?></p>
 
 	</section>
 
